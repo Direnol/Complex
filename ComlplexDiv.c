@@ -1,6 +1,6 @@
 #include "Mycomplex.h"
 
-Mycomplex div(Mycomplex a, Mycomplex b)
+Mycomplex Cdiv(Mycomplex a, Mycomplex b)
 {
     Mycomplex c;
     double r,den;

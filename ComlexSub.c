@@ -1,6 +1,6 @@
 #include "Mycomplex.h"
 
-Mycomplex sub(Mycomplex a, Mycomplex b)
+Mycomplex Csub(Mycomplex a, Mycomplex b)
 {
     Mycomplex c;
     c.re=a.re-b.re;

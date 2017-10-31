@@ -7,9 +7,9 @@ typedef struct {
     double re, lm;
 } Mycomplex ;
 
-Mycomplex add(Mycomplex a, Mycomplex b);
-Mycomplex sub(Mycomplex a, Mycomplex b);
-Mycomplex mul(Mycomplex a, Mycomplex b);
-Mycomplex div(Mycomplex a, Mycomplex b);
+Mycomplex Cadd(Mycomplex a, Mycomplex b);
+Mycomplex Csub(Mycomplex a, Mycomplex b);
+Mycomplex Cmul(Mycomplex a, Mycomplex b);
+Mycomplex Cdiv(Mycomplex a, Mycomplex b);
 
 #endif

@@ -1,6 +1,6 @@
 #include "Mycomplex.h"
 
-Mycomplex mul(Mycomplex a, Mycomplex b)
+Mycomplex Cmul(Mycomplex a, Mycomplex b)
 {
     Mycomplex c;
     c.re=a.re*b.re-a.lm*b.lm;

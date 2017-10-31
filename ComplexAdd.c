@@ -1,6 +1,6 @@
 #include "Mycomplex.h"
 
-Mycomplex add(Mycomplex a, Mycomplex b)
+Mycomplex Cadd(Mycomplex a, Mycomplex b)
 {
     Mycomplex c;
     c.re=a.re+b.re;
